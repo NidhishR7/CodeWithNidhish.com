@@ -48,10 +48,51 @@ body {
   display: inline-block;
 }
 .features {
-  background: linear-gradient(93.08deg, #fff, rgba(255, 255, 255, 0.5));
+ font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+letter-spacing: 0.15em;
+
+background: linear-gradient(93.08deg, #FFFFFF 0.6%, rgba(255, 255, 255, 0.5) 120.81%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
 }
 .pricing {
-  background: linear-gradient(94.88deg, #fff, rgba(255, 255, 255, 0.5));
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+letter-spacing: 0.15em;
+
+background: linear-gradient(94.88deg, #FFFFFF 0.52%, rgba(255, 255, 255, 0.5) 125.28%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
 }
 .rectangle-div {
   position: absolute;
@@ -139,20 +180,35 @@ body {
 .codewithnidhishcom-is-the-pla,
 .develop-preview-ship {
   align-self: stretch;
+  font-family: var(--font-work-sans);
   position: relative;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: inline-block;
 }
-.develop-preview-ship {
-  letter-spacing: 0.01em;
-  font-family: var(--font-work-sans);
-  background: linear-gradient(90deg, #7c26c2, #eb0584);
-}
+
 .codewithnidhishcom-is-the-pla {
-  font-size: var(--font-size-base);
+  font-family: 'Poiret One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
   letter-spacing: 0.15em;
-  background: linear-gradient(180deg, #fff, rgba(216, 216, 216, 0.51));
+  
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(216, 216, 216, 0.51) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
 }
 .rectangle-div2 {
   position: absolute;
@@ -188,6 +244,23 @@ body {
   align-items: center;
   justify-content: flex-start;
   gap: 45px;
+}
+.develop-preview-ship {
+  
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 49px;
+line-height: 57px;
+text-align: center;
+letter-spacing: 0.01em;
+
+background: linear-gradient(90deg, #7C26C2 3.8%, #EB0584 94.46%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
 }
 .the-mastermind-behind-it-all {
   align-self: stretch;
@@ -235,20 +308,50 @@ body {
   display: inline-block;
 }
 .frameworks {
-  letter-spacing: 0.09em;
-  background: linear-gradient(90deg, #c55e00, rgba(255, 58, 58, 0.91));
+  
+font-family: 'Work Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 37px;
+line-height: 43px;
+letter-spacing: 0.09em;
+
+background: linear-gradient(90deg, #C55E00 -2.56%, rgba(255, 58, 58, 0.91) 104.4%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
 }
-.react-nextjs-bootstrap-tailwi {
-  font-size: var(--font-size-lg);
-  letter-spacing: 0.04em;
-  line-height: 50px;
+.react-nextjs-bootstrap-tailwind {
+  font-family: 'Work Sans';
+  font-style: normal;
   font-weight: 600;
-  background: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.76),
-    rgba(255, 255, 255, 0.17)
-  );
+  font-size: 26px;
+  line-height: 35px;
+  /* or 192% */
+  
   text-align: center;
+  letter-spacing: 0.04em;
+  
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.76) 0%, rgba(255, 255, 255, 0.17) 112.33%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+  
+  
+  /* Inside auto layout */
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 .frame-div4 {
   align-self: stretch;
