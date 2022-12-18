@@ -1,0 +1,25 @@
+:root {
+  /* fonts */
+  --font-work-sans: "Work Sans";
+  --font-poiret-one: "Poiret One";
+  --font-poppins: Poppins;
+
+  /* font sizes */
+  --font-size-xs: 19px;
+  --font-size-sm: 20px;
+  --font-size-base: 22px;
+  --font-size-lg: 26px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-white: #fff;
+
+  /* Gaps */
+  --gap-md: 59px;
+
+  /* Paddings */
+  --padding-md: 60px;
+
+  /* border radiuses */
+  --br-md: 21px;
+}
